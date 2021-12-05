@@ -4,8 +4,6 @@
     justify-content: center;
     align-items: center;
 }
-footer{
-    height: 12vh;
-    background-color: black;
-    color: white;
+.my2{
+    margin:26px 0;
 }

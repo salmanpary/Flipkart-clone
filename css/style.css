@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
 *{
     margin: 0;
     padding: 0;
 }
+
 header{
-    height: 188px;
-    background-color: blue;
+    height: 58px;
+    background-color: var(--main-bg-color);
     
 }
 footer{
-    height: 160px;
-    background-color: black;
+    height: 12vh;
+    background-color: var(--main-bg-color);
     color: white;
+}
+nav{
+    display: flex;
 }
 nav ul{
     display: flex;
@@ -27,4 +34,63 @@ nav ul li{
 nav ul li a {
     color: white;
     text-decoration: none;
+}
+nav ul li a:hover {
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+   
+}
+.search input{
+    height: 30px;
+    border-radius: 5px;
+    width: 493px;
+    margin: 0px 30px;
+    padding: 0 12px;
+
+}
+.search button{
+    font-family:'Lato',sans-serif ;
+    font-weight: bold;
+}
+.slider{
+    margin:12px auto;
+    width: 80vw;
+
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    font-family: 'Ubuntu',sans-serif;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 20px;
+    
+}
+.btn{
+    background-color: #2874f0;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+    cursor: pointer;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
 }
