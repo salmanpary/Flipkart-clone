@@ -1,0 +1,11 @@
+.text-all-center{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 12vh;
+    background-color: black;
+    color: white;
+}
